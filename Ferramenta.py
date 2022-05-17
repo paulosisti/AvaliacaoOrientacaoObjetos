@@ -8,7 +8,7 @@ class Ferramenta(metaclass = ABCMeta):
     self.preco = preco 
 
   def getInformacoes(self):
-    return print(f"Ferramenta: {self.nome} \nCor: {self.tensao} \nPreço: {self.preco}")
+    return print(f"Ferramenta: {self.nome} \nTensão: {self.tensao} \nPreço: {self.preco}")
 
   @abstractmethod
   def cadastrar(self):
